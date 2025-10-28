@@ -1,7 +1,7 @@
 import { RouterProvider } from "react-router-dom";
 import logo from "./logo.svg";
 import "./App.css";
-import root from "./Router/root";
+import root from "./router/root";
 
 function App() {
   return <RouterProvider router={root}></RouterProvider>;

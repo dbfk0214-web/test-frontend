@@ -2,7 +2,7 @@ import React from 'react'
 
 const MainComponents = () => {
   return (
-    <div className="flex font-extrabold">MainComponents</div>
+    <div className="bg-pink-300">MainComponents</div>
   )
 }
 

@@ -3,7 +3,7 @@ import MainComponents from '../components/MainComponents'
 
 const MainPage = () => {
   return (
-    <div><MainComponents/></div>
+    <div className='bg-pink-300'><MainComponents/></div> 
   )
 }
 
