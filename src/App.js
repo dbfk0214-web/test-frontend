@@ -1,10 +1,15 @@
+import React from "react";
 import { RouterProvider } from "react-router-dom";
-import logo from "./logo.svg";
-import "./App.css";
 import root from "./router/root";
+import EditLectureModal from "./components/EditLectureModal";
 
 function App() {
-  return <RouterProvider router={root}></RouterProvider>;
+  return (
+    <>
+      <RouterProvider router={root} />
+      <EditLectureModal />
+    </>
+  );
 }
 
 export default App;
